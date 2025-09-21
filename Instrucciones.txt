@@ -1,0 +1,2 @@
+# ejcucion de localhost
+ streamlit run C:\Users\VStudioCode\Proyectos\Streamlit_app\main.py
