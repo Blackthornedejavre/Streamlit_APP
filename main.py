@@ -8,7 +8,7 @@ st.set_page_config(page_title="Incendios Asturias", layout="wide")
 # --- Cargar GeoJSON ---
 @st.cache_data
 def load_concejos():
-    with open("C:/Users/VStudioCode/Proyectos/Streamlit_app/data/capas/Concejos_SITPA_4326.geojson", "r", encoding="utf-8") as f:
+    with open("data/capas/Concejos_SITPA_4326.geojson", "r", encoding="utf-8") as f:
         geojson = json.load(f)
     return geojson
 
