@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# --- Archivos de configuración local ---
+*.env
+*.ini
+*.cfg
+*.toml
+
+# --- Jupyter Notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Archivos de sistema ---
+*.bak
